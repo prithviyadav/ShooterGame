@@ -60,3 +60,8 @@ function updateHealth(points) {
     }, 500);
   }
 }
+
+var loader = $("#preloader")[0];
+setTimeout(function () {
+  loader.style.display = "none";
+}, 3000);
